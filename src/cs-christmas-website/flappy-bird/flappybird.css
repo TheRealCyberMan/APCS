@@ -1,0 +1,21 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    background-color: black; 
+}
+
+#board {
+    background-image: url("./flappybirdbg.png");
+}
+#backButton {
+    position: fixed; 
+    top: 10px; 
+    right: 10px; 
+    padding: 10px 20px; 
+    background-color: green; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    z-index: 1000; 
+}
